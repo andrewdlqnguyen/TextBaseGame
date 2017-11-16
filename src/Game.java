@@ -52,6 +52,7 @@ public class Game
         theater.setExit("west", outside);
 
         pub.setExit("east", outside);
+        outside.setExit("south", pub);
 
         lab.setExit("north", outside);
         lab.setExit("east", office);
