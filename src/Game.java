@@ -43,6 +43,7 @@ public class Game
         lab = new Room("in a computing lab");
         office = new Room("in the computing admin office");
         
+        // This is just to test the pulling from github to eclipse
         // initialise room exits
         outside.setExit("east", theater);
         outside.setExit("south", lab);
